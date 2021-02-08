@@ -13,6 +13,7 @@ public class InheritanceDemo {
     public static void main(String[] args) {
       Triangle tr    = new Triangle(9,9,9);
       Triangle tr2  = new Triangle(7,4,7);
+      Triangle tr3  = new Triangle(0,0,0);
       if(tr instanceof Triangle){
           System.out.println("tr is an instance of Triangle");
       }
